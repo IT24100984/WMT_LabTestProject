@@ -43,6 +43,15 @@ function ItemForm({ initialValues, onSubmit, submitText }) {
         required
       />
 
+      <label>Temperature Requirement </label>
+      <input
+        type="number"
+        name="tempReq"
+        value={formData.tempReq}
+        onChange={handleChange}
+        required
+      />
+      
       <label>Description</label>
       <textarea
         name="description"
